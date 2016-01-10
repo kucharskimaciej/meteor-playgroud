@@ -1,0 +1,10 @@
+<h2>{{ ctrl.party.name }}</h2>
+<p>{{ ctrl.party.description }}</p>
+
+<form>
+    Party name: <input type="text" ng-model="ctrl.party.name" />
+    Description: <input type="text" ng-model="ctrl.party.description" />
+    Public Party? <input type="checkbox" ng-model="ctrl.party.public">
+    <button ng-click="ctrl.save()">Save</button>
+</form>
+<button ui-sref="parties">Back</button>

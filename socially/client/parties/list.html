@@ -1,0 +1,20 @@
+<form>
+    <label>Party Name: </label>
+    <input type="text" ng-model="ctrl.newParty.name" />
+    <label>Description: </label>
+    <input type="text" ng-model="ctrl.newParty.description" />
+    <label>Public Party?</label>
+    <input type="checkbox" ng-model="ctrl.newParty.public">
+
+    <button ng-click="ctrl.addParty()">Add Party!</button>
+</form>
+
+<ul>
+    <li ng-repeat="party in ctrl.parties">
+        <header><button ng-click="ctrl.removeParty(party)">&times;</button> {{ party.name }}</header>
+        <article>{{ party.description }}</article>
+        <footer>
+            <a ui-sref="partyDetails({ id: party._id })">details</a>
+        </footer>
+    </li>
+</ul>
