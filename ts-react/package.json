@@ -1,0 +1,19 @@
+{
+  "name": "dailyjournal-api",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "",
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "compile": "./node_modules/.bin/tsc",
+    "postinstall": "./node_modules/.bin/tsd install"
+  },
+  "devDependencies": {
+    "tslint": "^3.0.0",
+    "typescript": "^1.6.2"
+  },
+  "dependencies": {
+    "typings": "^0.6.7"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "ambientDependencies": {
+    "meteor": "github:DefinitelyTyped/DefinitelyTyped/meteor/meteor.d.ts#794ad5905b0862195d8a2193ae0cb00f128d889a",
+    "react": "github:DefinitelyTyped/DefinitelyTyped/react/react.d.ts#83b88a031cc8f2006fd361bf0a0b548c3bcc8259",
+    "react-dom": "github:DefinitelyTyped/DefinitelyTyped/react/react-dom.d.ts#ca5bfe76d2d9bf6852cbc712d9f3e0047c93486e",
+    "systemjs": "github:DefinitelyTyped/DefinitelyTyped/systemjs/systemjs.d.ts#83af898254689400de8fb6495c34119ae57ec3fe"
+  }
+}
